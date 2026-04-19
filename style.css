@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0a8f92;
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-size: 14px;
+    color: #444;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.btn-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #0a8f92;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #087b7e;
+}
+
+.status {
+    margin-top: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    margin-top: 12px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table th {
+    background: #f3f3f3;
+    padding: 8px;
+}
+
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
